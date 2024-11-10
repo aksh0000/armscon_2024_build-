@@ -1,0 +1,55 @@
+#BillingForAddon_container{
+    background-color: white;
+    min-height: 100vh;
+}
+#BillingForAddon_container *{
+    color:black;
+}
+#BillingForAddon_container header h1{
+    font-size: large;
+    text-align: center;
+    margin:5% auto;
+    margin-top:0px;
+}
+#BillingForAddon_container #details_container{
+    width:90%;
+    margin:5% auto;
+    border:0px solid grey;
+    padding:15px;
+    border-radius: 5px;
+    text-align: center;
+}
+#BillingForAddon_container #details_container h3{
+    text-align: center;
+    margin:10px auto;
+}
+#BillingForAddon_container #asdf{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+#addon_screenshot_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#addon_screenshot_container label{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:80%;
+    font-size: smaller;
+    border: 2px solid rgb(200,200,200);
+    border-radius: 10px;
+    margin:20px auto;
+}
+#addon_screenshot_container img{
+    width:70px;
+    border-radius: 10px;
+    margin:10px;
+}
