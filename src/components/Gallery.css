@@ -1,0 +1,31 @@
+#gallery_container {
+    z-index: -5000;
+}
+#gallery_container img{
+    width:40%;
+    transition: 0.1s;
+    margin:5px;
+}
+#gallery_container img:hover{
+    transform: scale(2.2,2.2);
+}
+#gallery_container header{
+    padding:2% auto;
+    text-align: center;
+    color:white;
+}
+#gallery_container header p{
+    width:80%;
+    margin:auto;
+    font-size: small;
+    margin:5% auto;
+}
+#gallery_container main{
+    width: 80%;
+    margin:auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
