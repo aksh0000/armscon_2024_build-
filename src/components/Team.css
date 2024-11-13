@@ -1,0 +1,28 @@
+#team_container{
+    color:white;
+    position: relative;
+}
+#team_container header h1{
+    text-align: center;
+
+}
+#team_container header h1 span{
+    color:rgb(136,50,153);
+}
+#team_container header p{
+    color:grey;
+    font-size: small;
+
+    text-align: center;
+    width: 80%;
+    margin:auto;
+}
+#team_container header{
+    margin-bottom: 10%;
+}
+#team_container  footer{
+    text-align: center;
+    padding: 20px;
+    color:grey;
+    font-size: small;
+}
