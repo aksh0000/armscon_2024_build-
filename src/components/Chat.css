@@ -1,0 +1,144 @@
+#speed_dating_container{
+    height:100vh;
+    background-color: black;
+    overflow: hidden;
+}
+#speed_dating_container header{
+    text-align: center;
+    padding:20px;
+}
+#speed_dating_container header  p{
+    border:2px solid grey;
+    padding:10px;
+    font-size: small;
+    margin:5% auto;
+    border-radius: 5px;
+}
+#speed_dating_container header h1{
+    color:white;
+}
+#speed_dating_container section {
+    display: flex;
+    width:80%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#speed_dating_container section article{
+    color:White;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#speed_dating_container section article h3{
+    
+    display: inline;
+    width: fit-content;
+}
+#speed_dating_container section label{
+    padding:5px;
+    margin:20px;
+    
+    border:2px solid grey;
+    border-radius: 5px;
+}
+#speed_dating_container section label input{
+    margin-right:10px;
+}
+
+#armscon_chat_conatiner_2{
+
+}
+
+#armscon_chat_container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 90vh;
+    
+     /* Add width for a defined layout */
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    z-index: 10000;
+    flex-direction: column;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Add shadow for a modern look */
+  }
+  
+  #chatBox {
+    flex: 1;
+    overflow-y: scroll;
+    padding: 10px;
+    border: 1px solid #444;
+    margin-bottom: 10px;
+    background-color: #222;
+    border-radius: 5px; /* Rounded edges */
+  }
+  
+  #inputArea {
+    display: flex;
+    align-items: center;
+  }
+  
+  #inputArea input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #444; /* Matching theme */
+    color: #fff; /* White text */
+  }
+  
+  #inputArea input:focus {
+    border-color: #888; /* Highlight on focus */
+    outline: none;
+  }
+  
+  #inputArea button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #inputArea button:hover {
+    background-color: #777; /* Slightly lighter on hover */
+  }
+  
+  .yourMessage {
+    color: white;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #444;
+    border-radius: 5px;
+    max-width: 80%;
+    word-wrap: break-word;
+  }
+  
+  .strangerMessage {
+    color: purple;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #2a2a2a;
+    border-radius: 5px;
+    max-width: 80%;
+    word-wrap: break-word;
+  }
+  
+  #rrr_disclaimer {
+    text-align: center;
+    font-size: small;
+    color: rgb(150, 150, 150);
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  

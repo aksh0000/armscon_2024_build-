@@ -1,0 +1,35 @@
+#feedback_container{
+    
+}
+#feedback_container header{
+    color:white;
+    
+    text-align: center;
+}
+#feedback_container header p{
+    width:80%;
+    margin:5% auto;
+    color:rgb(200,200,200);
+    font-size: small;
+    border:1px solid rgb(200,200,200);
+    padding:5px;
+    border-radius: 5px;
+}
+#feedback_container header span{
+    color:purple;
+}
+#feedback_container main{
+    width:85%;
+    border-radius: 5px;
+    padding:15px;
+    background-color: white;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#feedback_container main h2{
+    color:grey;
+    text-align: center;
+    margin-bottom: 5%;
+}
